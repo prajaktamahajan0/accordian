@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.accodmain {
+    width: 700px;
+    margin: 50px auto;
+    background-color: #d88e8e;;
+    
+}
+
+.accoHead {
+    padding: 20px;
+    color: rgb(26, 26, 25);
+    cursor: pointer;
+    /* background-color: #be5a78 */
+    background: linear-gradient(to left, #e39373, #c9dc76, #89c7d8);
+
+}
+
+.accodbody {
+    color: rgb(1, 9, 16);
+    padding: 20px;
+    font-size: 20px;
+    background: linear-gradient(to left, #d3be7b, #6abdce,#cf8b8b);
+}
+
+.accoHead + .accodbody{
+    display: none;
+}
+
+.accoHead.active + .accodbody{
+    display: block;
+}
